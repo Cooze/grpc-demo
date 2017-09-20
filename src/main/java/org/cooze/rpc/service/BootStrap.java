@@ -8,7 +8,7 @@ import org.cooze.rpc.service.greeter.GreeterImpl;
 import java.io.IOException;
 
 /**
- * @author xianzhe_song
+ * @author cooze
  * @version 1.0.0
  * @desc RPC启动引导类
  * @date 2017/9/19

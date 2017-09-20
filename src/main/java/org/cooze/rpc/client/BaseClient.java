@@ -8,7 +8,7 @@ import org.cooze.grpc.service.GreeterGrpc;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author xianzhe_song
+ * @author cooze
  * @version 1.0.0
  * @desc
  * @date 2017/9/19

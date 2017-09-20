@@ -6,7 +6,7 @@ import org.cooze.grpc.entity.HelloRequest;
 import org.cooze.grpc.service.GreeterGrpc;
 
 /**
- * @author xianzhe_song
+ * @author cooze
  * @version 1.0.0
  * @desc
  * @date 2017/9/19
