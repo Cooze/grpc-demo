@@ -1,0 +1,40 @@
+//使用proto3语法
+syntax = "proto3";
+
+//指定proto文件包名
+package org.cooze.grpc.entity;
+
+//指定 java 包名
+option java_package = "org.cooze.grpc.entity";
+//指定proto文件生成java文件后的类名
+option java_outer_classname = "EntityProto";
+
+//开启多文件
+option java_multiple_files = true;
+
+//请求参数
+message HelloRequest {
+  string name = 1;
+}
+
+//响应参数
+message HelloReply {
+  string message = 1;
+}
+
+
+message Account {
+    string name = 1;
+    string sex = 2;
+    int32 age = 3;
+}
+
+message AccountResponse {
+    string msg = 1;
+    int32 code = 2;
+    repeated Account results = 3;
+}
+
+
+
+
